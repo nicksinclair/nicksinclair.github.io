@@ -1,11 +1,13 @@
 import React from 'react';
 
-export default function Navbar() {
+const Navbar: React.FC = () => {
   return (
     <div className="navigation">
       <div className="navigation-sub">
-        <p>Navar</p>
+        <p>Navbar</p>
       </div>
     </div>
   );
-}
+};
+
+export default Navbar;

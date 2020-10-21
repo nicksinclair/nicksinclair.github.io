@@ -1,11 +1,37 @@
 {
-  "include": [
-    "src/*"
+  "include": [ // *** The files TypeScript should type check ***
+    "src/**/*"
+  ],
+  "exclude": [ // *** The files to not type check ***
+    "node_modules",
+    "build",
   ],
   "compilerOptions": {
     "target": "es5",
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
-    "outDir": "out"
+    "outDir": "out",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "sourceMap": true, // *** Generate corrresponding .map file ***
+    "declaration": true, // *** Generate corresponding .d.ts file ***
+    "noUnusedLocals": true, // *** Report errors on unused locals ***
+    "noUnusedParameters": true, // *** Report errors on unused parameters ***
+    "experimentalDecorators": true, // *** Enables experimental support for ES decorators ***
+    "incremental": true, // *** Enable incremental compilation by reading/writing information from prior compilations to a file on disk ***
+    "noFallthroughCasesInSwitch": true // *** Report errors for fallthrough cases in switch statement ***
   }
 }

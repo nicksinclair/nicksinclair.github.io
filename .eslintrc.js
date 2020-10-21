@@ -1,21 +1,35 @@
 module.exports = {
-  extends: ['airbnb', 'react-app', 'plugin:prettier/recommended', 'prettier/react'],
   env: {
     browser: true,
-    es6: true,
-    jest: true,
-    mocha: true,
-    node: true,
+    es2021: true,
   },
-  globals: {
-    brokers: true,
-    log: true,
-    database: true,
-    cursor: true,
-    auditTrail: true,
-    pronghornProps: true,
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 12,
+    sourceType: 'module',
   },
+  extends: [
+    'plugin:react/recommended',
+    'plugin:import/typescript',
+    'plugin:@typescript-eslint/recommended',
+    'airbnb',
+    'plugin:prettier/recommended',
+    'prettier/react',
+  ],
+  settings: {
+    react: { version: 'detect' },
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
+  plugins: ['react', '@typescript-eslint'],
   rules: {
+    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'prettier/prettier': 'error',
     'max-len': [
       'warn',
@@ -31,7 +45,19 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+    'no-use-before-define': 'off',
     'no-console': ['warn', { allow: ['info', 'warn', 'error'] }],
     'react/prop-types': 0,
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
 };

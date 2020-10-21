@@ -1,15 +1,15 @@
 // Absolute imports
 import React from 'react';
 
-//Relative imports
+// Relative imports
 import Navbar from './components/Navbar';
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <Navbar></Navbar>
-      
+      <Navbar />
+
       <header className="App-header">
         <p>In Progress!</p>
         <a
@@ -22,6 +22,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
