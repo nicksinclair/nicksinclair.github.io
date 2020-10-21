@@ -1,12 +1,16 @@
+// Absolute imports
 import React from 'react';
-import logo from './logo.svg';
+
+//Relative imports
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Navbar></Navbar>
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>In Progress!</p>
         <a
           className="App-link"
