@@ -1,58 +1,28 @@
 // Absolute imports
 import React from 'react';
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
 // Relative imports
 import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Footer from './components/Footer';
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <HashRouter basename="/">
-      <div className="App">
-        <div>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-          </ul>
+      <div className="app">
+        <Navbar />
 
+        <div className="content-container">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
         </div>
-        <Navbar />
 
-        <header className="App-header">
-          <p>In Progress!</p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer">
-            Learn React
-          </a>
-        </header>
+        <Footer />
       </div>
     </HashRouter>
-  );
-};
-
-const Home = () => {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-};
-
-const About = () => {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
   );
 };
 

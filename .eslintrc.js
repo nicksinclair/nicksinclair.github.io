@@ -54,9 +54,10 @@ module.exports = {
         tsx: 'never',
       },
     ],
-    'no-use-before-define': 'off',
     'no-console': ['warn', { allow: ['info', 'warn', 'error'] }],
     'react/prop-types': 0,
+    'no-use-before-define': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
   },
 };
