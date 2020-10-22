@@ -7,7 +7,38 @@
 
 .navbar-container {
   width: 100%;
-  background-color: #ffff33;
+  background-color: white;
+  display: grid;
+  grid-template-columns: minmax(400px, 1fr) auto minmax(200px, 1fr);
+}
+
+.navbar-container ul {
+  list-style: none;
+  padding: 0px;
+  margin: 5px 0px 0px 20px;
+}
+
+.navbar-container h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar a {
+  color: #999999;
+  float: left;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.navbar a.active {
+  color: #25408f;
+  font-weight: bold;
 }
 
 .content-container {
@@ -21,7 +52,7 @@
 
 .footer-container {
   width: 100%;
-  background-color: #ffff33;
+  background-color: white;
 }
 
 .full-bleed {
