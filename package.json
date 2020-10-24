@@ -1,19 +1,21 @@
 {
-  "name": "nicksinclair.github.io",
+  "name": "nicksinclair.github.io_cra-4.0",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://nicksinclair.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
-    "lint": " npx eslint --ext .ts,.tsx .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -28,24 +30,25 @@
     ]
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
-    "@types/node": "^14.14.0",
+    "@types/node": "^12.19.1",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.6",
-    "gh-pages": "^3.1.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.4"
+    "react-scripts": "4.0.0",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
-    "eslint": "^6.8.0",
+    "eslint": "^7.12.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-import": "^2.22.1",

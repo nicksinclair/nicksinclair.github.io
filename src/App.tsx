@@ -1,4 +1,3 @@
-// Absolute imports
 import React from 'react';
 import { HashRouter, Route } from 'react-router-dom';
 
@@ -10,7 +9,7 @@ import Art from './components/Art';
 import About from './components/About';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import './App.css';
+import './css/App.css';
 
 const App: React.FC = () => {
   return (
