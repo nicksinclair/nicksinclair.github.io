@@ -1,5 +1,5 @@
 {
-  "name": "nicksinclair.github.io_cra-4.0",
+  "name": "nicksinclair.github.io",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://nicksinclair.github.io",
@@ -38,6 +38,7 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.6",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",

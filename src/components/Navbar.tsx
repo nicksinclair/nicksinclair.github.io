@@ -7,11 +7,6 @@ const Navbar: React.FC = () => {
       <nav className="navbar">
         <ul>
           <li>
-            <NavLink exact to="/">
-              Home
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="/design">Design</NavLink>
           </li>
           <li>
@@ -25,7 +20,10 @@ const Navbar: React.FC = () => {
           </li>
         </ul>
       </nav>
-      <h2>NICK SINCLAIR</h2>
+
+      <NavLink exact to="/">
+        <h2>NICK SINCLAIR</h2>
+      </NavLink>
     </div>
   );
 };
