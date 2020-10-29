@@ -1,3 +1,5 @@
+const severity = 'warn';
+
 module.exports = {
   env: {
     browser: true,
@@ -11,6 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
+    'eslint:recommended',
     'plugin:react/recommended',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
@@ -28,10 +31,11 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
+    'no-unused-vars': severity,
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
-    'prettier/prettier': 'error',
+    'prettier/prettier': severity,
     'max-len': [
-      'warn',
+      severity,
       {
         code: 100,
         tabWidth: 2,
@@ -45,7 +49,7 @@ module.exports = {
       },
     ],
     'import/extensions': [
-      'error',
+      severity,
       'ignorePackages',
       {
         js: 'never',
@@ -54,7 +58,7 @@ module.exports = {
         tsx: 'never',
       },
     ],
-    'no-console': ['warn', { allow: ['info', 'warn', 'error'] }],
+    'no-console': [severity, { allow: ['info', 'warn', 'error'] }],
     'react/prop-types': 0,
     'no-use-before-define': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',

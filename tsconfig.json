@@ -19,7 +19,7 @@
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",

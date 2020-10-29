@@ -7,10 +7,7 @@ const Navbar: React.FC = () => {
       <nav className="navbar">
         <ul>
           <li>
-            <NavLink to="/design">Design</NavLink>
-          </li>
-          <li>
-            <NavLink to="/art">Art</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
           </li>
           <li>
             <NavLink to="/about">About</NavLink>
