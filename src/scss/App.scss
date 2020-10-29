@@ -2,6 +2,7 @@
 @import 'config';
 @import 'utilities';
 
+// App
 .app {
   text-align: center;
   display: grid;
@@ -10,6 +11,7 @@
   border-left: $border;
 }
 
+// Navbar
 .navbar-container {
   position: sticky;
   position: -webkit-sticky; // Safari
@@ -42,7 +44,7 @@
       color: $gray500;
       text-align: center;
       width: 60px;
-      padding: 25px 15px;
+      padding: 25px 25px;
       text-decoration: none;
       font-size: 15px;
 
@@ -70,17 +72,70 @@
   }
 }
 
+// Content
 .content-container {
   display: grid;
   grid-template-columns: 1fr #{'min(65ch, 100%)'} 1fr;
   background-color: $base;
   color: white;
+
+  .project-card-grid {
+    display: flex;
+    padding: 3rem;
+
+    .project-card {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      overflow: hidden;
+      height: 360px;
+      width: 400px;
+      min-width: 250px;
+      padding: 0.5rem;
+
+      background: $base;
+      box-shadow: -1rem 0 3rem #000;
+
+      transition: 0.2s;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .card-image {
+        display: grid;
+        height: 240px;
+
+        img {
+          align-content: center;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .card-header {
+        padding-left: 0.5rem;
+        text-align: left;
+      }
+
+      &:hover {
+        transform: translateY(-1rem);
+      }
+
+      &:not(:first-child) {
+        margin-left: -130px;
+      }
+    }
+  }
 }
 
 .content-container > * {
   grid-column: 2;
 }
 
+// Footer
 .footer-container {
   width: 100%;
   background-color: $yellowPrimary;
@@ -89,48 +144,6 @@
 .full-bleed {
   width: 100%;
   grid-column: 1 / 4;
-}
-
-.project-thumbnails {
-  display: flex;
-  padding: 3rem;
-
-  .project-thumbnail {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    // height: 350px;
-    // width: 400px;
-    min-width: 250px;
-    // padding: 1.5rem;
-
-    border-radius: 16px;
-    background: #17141d;
-    box-shadow: -1rem 0 3rem #000;
-
-    transition: 0.3s;
-
-    .project-image {
-      img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        filter: grayscale(100%);
-      }
-    }
-
-    .text-container {
-      padding: 2px 16px;
-    }
-
-    &:hover {
-      transform: translateY(-1rem);
-    }
-
-    &:not(:first-child) {
-      margin-left: -130px;
-    }
-  }
 }
 
 // Scrollbar

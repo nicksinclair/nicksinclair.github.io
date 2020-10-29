@@ -50,7 +50,7 @@ const Project = () => {
           <h4>{projectData.name}</h4>
         </div>
       </div>
-      <img src={urlFor(projectData.mainImage).width(200).url()} alt="" />
+      <img src={urlFor(projectData.mainImage).width(800).url()} alt={projectData.title} />
       <div>
         <BlockContent
           blocks={projectData.body}

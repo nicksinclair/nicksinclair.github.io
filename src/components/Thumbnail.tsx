@@ -12,17 +12,17 @@ const Thumbnail: React.FC<Props> = props => {
   const { link, image, title, category } = props;
 
   return (
-    <div className="project-thumbnail">
+    <article className="project-card">
       <Link to={link} key={title}>
-        <div className="project-image">
-          <img src={image} alt="Project" />
+        <div className="card-image">
+          <img src={image} alt={title} />
         </div>
-        <div className="text-container">
-          <h4>{title}</h4>
+        <header className="card-header">
           <p>{category}</p>
-        </div>
+          <h2>{title}</h2>
+        </header>
       </Link>
-    </div>
+    </article>
   );
 };
 

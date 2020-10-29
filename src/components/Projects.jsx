@@ -13,15 +13,15 @@ const Projects = () => {
     sanityClient
       .fetch(
         `*[_type == "post"]{
-        title,
-        slug,
-        mainImage{
-          asset->{
-            _id,
-            url
+          title,
+          slug,
+          mainImage{
+            asset->{
+              _id,
+              url
+            }
           }
-        }
-      }`,
+        }`,
       )
       .then(data => setProjects(data))
       .catch(console.error);
@@ -31,7 +31,7 @@ const Projects = () => {
     <main className="content">
       <h2>PROJECTS</h2>
 
-      <div className="project-thumbnails">
+      <section className="project-card-grid">
         {projectsData &&
           projectsData.map(project => (
             <Thumbnail
@@ -39,9 +39,10 @@ const Projects = () => {
               image={project.mainImage.asset.url}
               title={project.title}
               category="Web App"
+              key={project.title}
             />
           ))}
-      </div>
+      </section>
     </main>
   );
 };
