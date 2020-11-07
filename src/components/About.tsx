@@ -1,13 +1,17 @@
+// Absolute imports
 import React from 'react';
+
+// Relative imports
+import Header from './Header';
 
 const About: React.FC = () => {
   // const headshotPath = '../images/headshot.png';
 
   return (
     <main className="content">
-      <h2>Hello!</h2>
+      <Header className="header" title="Hello!" />
       <p>I am Nick Sinclair</p>
-      <img src="../images/headshot.png" alt="Nick Sinclair Headshot" />
+      <p>I made this website using React, Sass and Sanity</p>
     </main>
   );
 };

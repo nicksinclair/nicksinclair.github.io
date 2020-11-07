@@ -1,9 +1,14 @@
 import React from 'react';
 
+import ResumeSection from './ResumeSection';
+
 const Resume: React.FC = () => {
   return (
     <main className="content">
-      <h2>RESUME</h2>
+      <ResumeSection title="Experience" schema="position" />
+      <ResumeSection title="Skills" schema="position" />
+      <ResumeSection title="Education" schema="position" />
+      <ResumeSection title="Interests" schema="position" />
     </main>
   );
 };

@@ -15,6 +15,7 @@ const Projects = () => {
         `*[_type == "post"]{
           title,
           slug,
+          "category": categories[0]->title,
           mainImage{
             asset->{
               _id,
@@ -23,7 +24,9 @@ const Projects = () => {
           }
         }`,
       )
-      .then(data => setProjects(data))
+      .then(data => {
+        setProjects(data);
+      })
       .catch(console.error);
   }, []);
 
@@ -38,7 +41,7 @@ const Projects = () => {
               link={`/projects/${project.slug.current}`}
               image={project.mainImage.asset.url}
               title={project.title}
-              category="Web App"
+              category={project.category} // eslint-disable-line no-underscore-dangle
               key={project.title}
             />
           ))}

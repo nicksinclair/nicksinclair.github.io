@@ -19,7 +19,7 @@ const Thumbnail: React.FC<Props> = props => {
         </div>
         <header className="card-header">
           <p>{category}</p>
-          <h2>{title}</h2>
+          <h1>{title}</h1>
         </header>
       </Link>
     </article>

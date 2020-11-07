@@ -6,6 +6,7 @@ import imageUrlBuilder from '@sanity/image-url';
 
 // Relative Imports
 import sanityClient from '../client';
+import Header from './Header';
 
 const urlFor = source => {
   return builder.image(source);
@@ -27,8 +28,8 @@ const Project = () => {
             asset->{
               _id,
               url
-             }
-           },
+            }
+          },
           body,
           "name": author->name,
         }`,
@@ -45,12 +46,12 @@ const Project = () => {
   return (
     <main className="content">
       <div>
-        <h2>{projectData.title}</h2>
+        <Header title={projectData.title} />
         <div>
           <h4>{projectData.name}</h4>
         </div>
       </div>
-      <img src={urlFor(projectData.mainImage).width(800).url()} alt={projectData.title} />
+      <img src={urlFor(projectData.mainImage).url()} alt={projectData.title} />
       <div>
         <BlockContent
           blocks={projectData.body}
