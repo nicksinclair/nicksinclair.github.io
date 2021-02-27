@@ -16,8 +16,6 @@
   background-color: $blue100;
   border-top: $border;
 
-  transition: 0.2s;
-
   .arrow {
     fill: white;
     width: 48px;
@@ -27,6 +25,8 @@
 }
 
 %interactive {
+  transition: 0.2s;
+
   &:hover {
     transform: translateY(-0.5rem);
 

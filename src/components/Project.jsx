@@ -8,11 +8,11 @@ import imageUrlBuilder from '@sanity/image-url';
 import sanityClient from '../client';
 import Header from './Header';
 
+const builder = imageUrlBuilder(sanityClient);
+
 const urlFor = source => {
   return builder.image(source);
 };
-
-const builder = imageUrlBuilder(sanityClient);
 
 const Project = () => {
   const [projectData, setProjectData] = useState(null);
@@ -30,7 +30,13 @@ const Project = () => {
               url
             }
           },
-          body,
+          body[]{
+            ..., 
+            asset->{
+              ...,
+              "_key": _id
+            }
+          },
           "name": author->name,
         }`,
         { slug },

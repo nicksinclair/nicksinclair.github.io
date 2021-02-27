@@ -7,7 +7,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Project from './components/Project';
 import About from './components/About';
-import Resume from './components/Resume';
+import Resume from './components/Resume/Resume';
 import Footer from './components/Footer';
 import './css/App.css';
 
