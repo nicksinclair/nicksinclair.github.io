@@ -3,7 +3,7 @@ path: '/projects/pulse-atrium'
 date: '2019-06'
 title: 'Pulse Atrium'
 summary: 'An interactive educational space concept.'
-thumbnail: ./images/pulse_01.png
+thumbnail: ../../../images/pulse_01.png
 author: 'Nick Sinclair'
 ---
 
@@ -23,7 +23,7 @@ On this team, my primary contributions included **conducting interviews** with s
 
 ## The Warehouse
 
-![The Warehouse](./images/pulse_01.png)
+![The Warehouse](../../../images/pulse_01.png)
 
 The Warehouse | 520 W 20th Street New York City, NY
 
@@ -33,15 +33,15 @@ We began by identifying a wide variety of **potential stakeholders** that may be
 
 ## Futures Students
 
-![Future Student](./images/persona_future_student.png)
+![Future Student](../../../images/persona_future_student.png)
 
 ## Online Students
 
-![Online Student](./images/persona_online_student.png)
+![Online Student](../../../images/persona_online_student.png)
 
 ## Alumni
 
-![Alumni](./images/persona_alumni.png)
+![Alumni](../../../images/persona_alumni.png)
 
 ## Rationalization
 
@@ -49,17 +49,17 @@ After **reaching out** to actual people that fell into our stakeholder groups an
 
 ## Stakeholder Map
 
-![Stakeholder Map](./images/stakeholder_map.png)
+![Stakeholder Map](../../../images/stakeholder_map.png)
 
 ## Storyboards
 
 The insights we gained from our interviews with users allowe dus to develop in-depth **storyboards** that outline a few typical interactions that we wanted to include within the space.
 
-![Future Student Storyboard](./images/storyboard_future_student.png)
+![Future Student Storyboard](../../../images/storyboard_future_student.png)
 
-![Online Student Storyboard](./images/storyboard_online_student.png)
+![Online Student Storyboard](../../../images/storyboard_online_student.png)
 
-![Alumni Storyboard](./images/storyboard_alumni.png)
+![Alumni Storyboard](../../../images/storyboard_alumni.png)
 
 ## Solution
 
@@ -67,44 +67,44 @@ After multiple interactions, we were able to visualize a **programmatic solution
 
 ## Innovation Theater | Interior
 
-![Innovation Theater Interior](./images/innovation_theater_interior.png)
+![Innovation Theater Interior](../../../images/innovation_theater_interior.png)
 
 ## Cell Interior
 
-![Cell Interior](./images/cell_interior.png)
+![Cell Interior](../../../images/cell_interior.png)
 
 ## Cell Reservation
 
 <video width='320' controls>
-  <source src='./video/cell_reservation.mp4' type='video/mp4'>
+  <source src='../../../video/cell_reservation.mp4' type='video/mp4'>
 </video>
 
 ## Maker's Space
 
-![Maker's Space](./images/makers_space.png)
+![Maker's Space](../../../images/makers_space.png)
 
 ## Social Bar
 
-![Social Bar](./images/social_bar.png)
+![Social Bar](../../../images/social_bar.png)
 
 ## Interactive Pop-Up
 
-![Interactive Pop-Up](./images/interactive_pop-up.png)
+![Interactive Pop-Up](../../../images/interactive_pop-up.png)
 
 ## Exterior Installations
 
-![Exterior 1](./images/exterior_01)
+![Exterior 1](../../../images/pulse_01)
 
-![Exterior 2](./images/exterior_02)
+![Exterior 2](../../../images/pulse_02)
 
-![Exterior 3](./images/exterior_03)
+![Exterior 3](../../../images/pulse_03)
 
 ## Site and Structure
 
-![Site and Structure](./images/site_structure)
+![Site and Structure](../../../images/site_structure)
 
 ## Video Presentation
 
 <video controls>
-  <source src='./video/pulse.mp4' type='video/mp4'>
+  <source src='../../../video/pulse.mp4' type='video/mp4'>
 </video>

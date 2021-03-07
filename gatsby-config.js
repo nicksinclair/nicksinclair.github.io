@@ -5,8 +5,6 @@ module.exports = {
     author: `Nick Sinclair`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,8 +19,8 @@ module.exports = {
         path: `${__dirname}/src/pages/projects`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -39,6 +37,20 @@ module.exports = {
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1000,
+            },
+          },
+        ],
+      },
+    },
+    `gatsby-transformer-sharp`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
