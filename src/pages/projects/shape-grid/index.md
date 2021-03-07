@@ -1,0 +1,18 @@
+---
+path: '/projects/shape-grid'
+date: '2021-02'
+title: 'Shape Grid'
+summary: 'An interactive generative art project.'
+thumbnail: ./images/shape_grid_01.png
+author: 'Nick Sinclair'
+---
+
+## Details
+
+[Interactive Website](https://nicksinclair.github.io/shape-grid)
+
+Beware, the performance of this project is not the best due to using p5's SVG renderer.
+
+## Images
+
+![Shape Grid 1](./images/shape_grid_01)
