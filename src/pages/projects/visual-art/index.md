@@ -23,7 +23,7 @@ Found objects and primer on plywood. 2015-10. 122cm x 30.5cm
 
 ## Overfishing
 
-![Overfishing](../../../images/oerfishing.jpg)
+![Overfishing](../../../images/overfishing.jpg)
 
 Paper, cardboard, magazine cutouts, ink, and acrylic on plywood. 2015-05. 91.5cm x 51.5cm.
 

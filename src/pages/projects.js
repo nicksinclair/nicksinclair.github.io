@@ -2,9 +2,11 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const Projects = ({ data }) => (
   <Layout>
+    <SEO title="Projects" />
     <h1>PROJECTS</h1>
     {data.allMarkdownRemark.edges.map((project) => (
       <div key={project.node.id}>
@@ -12,7 +14,7 @@ const Projects = ({ data }) => (
         <small>Updated {project.node.frontmatter.date}</small>
         <br />
         <br />
-        <Link to={project.node.frontmatter.path}>Go to Project</Link>
+        <Link to={project.node.frontmatter.path}>Go to Project &rarr;</Link>
         <br />
         <br />
         <hr />

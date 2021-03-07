@@ -93,11 +93,11 @@ After multiple interactions, we were able to visualize a **programmatic solution
 
 ## Exterior Installations
 
-![Exterior 1](../../../images/pulse_01)
+![Exterior 1](../../../images/pulse_01.png)
 
-![Exterior 2](../../../images/pulse_02)
+![Exterior 2](../../../images/pulse_02.png)
 
-![Exterior 3](../../../images/pulse_03)
+![Exterior 3](../../../images/pulse_03.png)
 
 ## Site and Structure
 

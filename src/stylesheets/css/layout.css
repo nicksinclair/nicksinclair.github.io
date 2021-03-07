@@ -107,6 +107,7 @@ body .site-container .content img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid #ffff33;
 }
 
 body .site-container footer {
