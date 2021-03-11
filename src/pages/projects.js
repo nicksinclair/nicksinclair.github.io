@@ -28,16 +28,16 @@ export const projectQuery = graphql`
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
+      filter: { frontmatter: { path: { regex: "/project/" } } }
     ) {
       edges {
         node {
-          html
           id
           frontmatter {
-            path
             date
             title
             author
+            path
           }
         }
       }

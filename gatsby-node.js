@@ -10,8 +10,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
 
   const projectTemplate = path.resolve('src/templates/projectTemplate.js');
+  const resumeTemplate = path.resolve('src/templates/resumeTemplate.js');
 
-  const result = await graphql(`
+  const projectResult = await graphql(`
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
@@ -19,13 +20,34 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       ) {
         edges {
           node {
-            html
             id
             frontmatter {
-              path
               date
               title
               author
+              path
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  const resumeResult = await graphql(`
+    {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+        filter: { frontmatter: { path: { regex: "/resume/" } } }
+      ) {
+        edges {
+          node {
+            id
+            frontmatter {
+              date
+              title
+              author
+              path
             }
           }
         }
@@ -34,15 +56,22 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   `);
 
   // Handle errors running GraphQL query
-  if (result.errors) {
+  if (projectResult.errors) {
     reporter.panicOnBuild('Error while running GraphQL query!');
     return;
   }
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  projectResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
       component: projectTemplate,
+    });
+  });
+
+  resumeResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    createPage({
+      path: node.frontmatter.path,
+      component: resumeTemplate,
     });
   });
 };

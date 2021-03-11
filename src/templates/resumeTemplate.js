@@ -1,22 +1,28 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 
-export default function ProjectTemplate({ data }) {
+export default function ResumeTemplate({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
 
   return (
     <Layout>
-      <article className="project-container">
+      <article className="resume-container">
         <h1>{frontmatter.title.toUpperCase()}</h1>
-        <Link to="/projects">&larr; Back to Projects</Link>
         <h4>
-          <em>Updated {frontmatter.date}</em>
+          <em>Updated {frontmatter.updated}</em>
         </h4>
+        <a
+          href={`mailto: ${frontmatter.email}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {frontmatter.email}
+        </a>
         <div
-          className="project-content"
+          className="resume-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
@@ -30,9 +36,10 @@ export const projectQuery = graphql`
       html
       frontmatter {
         path
-        date
+        updated
         title
-        author
+        email
+        phone
       }
     }
   }

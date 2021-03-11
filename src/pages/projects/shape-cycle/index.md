@@ -7,10 +7,18 @@ thumbnail: ../../../animations/shape_cycle_01.gif
 author: 'Nick Sinclair'
 ---
 
+::: section block
+
 ## Details
 
 [Interactive Website](https://nicksinclair.github.io/shape-cycle)
 
+:::
+
+::: section full-image
+
 ## Animations
 
 ![Shape Cycle 1](../../../animations/shape_cycle_01.gif)
+
+:::

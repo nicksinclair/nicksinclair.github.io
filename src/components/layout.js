@@ -33,14 +33,15 @@ const Layout = ({ children }) => {
         className="content"
         style={{
           maxWidth: `70ch`,
-          padding: `0 1.0875rem 1.45rem`,
+          paddingLeft: `3.75rem`,
+          paddingBottom: `1.45rem`,
         }}
       >
         {children}
       </main>
 
       <footer>
-        <h3>In Progress!</h3>
+        <h4>Created using React, Gatsby, GraphQL, Sass, and Markdown</h4>
       </footer>
     </div>
   );

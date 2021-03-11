@@ -7,12 +7,18 @@ thumbnail: ../../../animations/form_grid_01.gif
 author: 'Nick Sinclair'
 ---
 
+::: section block
+
 ## Details
 
 [Interactive Website](https://nicksinclair.github.io/form-grid)
 
 The perfomance of this project is significantly better than that of [Shape Grid](nicksinclair.github.io/projects/shape-grid) due to its use of p5's WebGL renderer.
 
+::: section full-image
+
 ## Animations
 
 ![Form Grid 1](../../../animations/form_grid_01.gif)
+
+:::

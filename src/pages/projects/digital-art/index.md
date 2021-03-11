@@ -7,16 +7,26 @@ thumbnail: ../../../images/xochitl.png
 author: 'Nick Sinclair'
 ---
 
-**Digital Art** content will go _here_.
+::: section full-image
 
 ## XOCHITL
 
 ![XOCHITL](../../../images/xochitl.png)
 
+:::
+
+::: section full-image
+
 ## FUN
 
 ![FUN](../../../images/fun.png)
 
+:::
+
+::: section full-image
+
 ## WOWZA
 
 ![WOWZA](../../../images/wowza.png)
+
+:::

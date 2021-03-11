@@ -19,6 +19,13 @@ module.exports = {
         path: `${__dirname}/src/pages/projects`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `resume`,
+        path: `${__dirname}/src/pages/resume`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -41,12 +48,13 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-containers`,
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1000,
-              quality: 95,
-              showCaptions: true,
+              quality: 100,
+              showCaptions: false,
             },
           },
         ],

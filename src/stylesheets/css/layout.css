@@ -30,8 +30,8 @@ body .site-container {
   padding-top: 60px;
   -ms-grid-rows: 1fr auto;
       grid-template-rows: 1fr auto;
-  -ms-grid-columns: 1fr auto 1fr 1fr;
-      grid-template-columns: 1fr auto 1fr 1fr;
+  -ms-grid-columns: 1fr auto minmax(65ch, 1fr) 1fr;
+      grid-template-columns: 1fr auto minmax(65ch, 1fr) 1fr;
 }
 
 body .site-container header {
@@ -61,6 +61,7 @@ body .site-container header .sticky-container .nav-container {
 
 body .site-container header .sticky-container .nav-container li a {
   display: block;
+  position: relative;
   padding: 6px;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ffff33), color-stop(50%, transparent));
   background: linear-gradient(to right, #ffff33 50%, transparent 50%);
@@ -86,8 +87,6 @@ body .site-container .content {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3 / 4;
-  margin-left: 60px;
-  margin-right: 60px;
 }
 
 body .site-container .content h1 {
@@ -103,11 +102,42 @@ body .site-container .content a {
           text-decoration-color: #ffff33;
 }
 
-body .site-container .content img {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+body .site-container .content .block {
+  margin-top: 2rem;
+  padding: 0 1rem;
   border: 5px solid #ffff33;
+}
+
+body .site-container .content .block h2:first-of-type {
+  margin: 0 -1rem;
+  margin-block: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  background: #ffff33;
+  color: #022c43;
+}
+
+body .site-container .content .full-image {
+  margin-top: 2rem;
+  border: 5px solid #ffff33;
+}
+
+body .site-container .content .full-image h2:first-of-type {
+  margin-block: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  background: #ffff33;
+  color: #022c43;
+}
+
+body .site-container .content .full-image p {
+  margin-block: 0;
+}
+
+body .site-container .content ul {
+  padding: 1rem;
 }
 
 body .site-container footer {
@@ -118,7 +148,6 @@ body .site-container footer {
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
   text-align: center;
-  font-weight: bold;
   border-top: 8px solid #ffff33;
 }
 
@@ -134,11 +163,11 @@ body a {
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffff33;
+  background: #053f5e;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #053f5e;
+  background: #ffff33;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -385,6 +414,7 @@ ul {
   padding-top: 0;
   margin-bottom: 0;
   list-style-position: outside;
+  list-style-type: circle;
   list-style-image: none;
 }
 
