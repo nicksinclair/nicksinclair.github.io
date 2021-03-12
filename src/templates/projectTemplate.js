@@ -11,10 +11,15 @@ export default function ProjectTemplate({ data }) {
     <Layout>
       <article className="project-container">
         <h1>{frontmatter.title.toUpperCase()}</h1>
+
         <Link to="/projects">&larr; Back to Projects</Link>
+
+        <h3>{frontmatter.summary}</h3>
+
         <h4>
           <em>Updated {frontmatter.date}</em>
         </h4>
+
         <div
           className="project-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -32,6 +37,7 @@ export const projectQuery = graphql`
         path
         date
         title
+        summary
         author
       }
     }

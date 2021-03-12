@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
       </main>
 
       <footer>
-        <h4>Created using React, Gatsby, GraphQL, Sass, and Markdown</h4>
+        <h4>Created using React, Gatsby, GraphQL, Sass, and Markdown.</h4>
       </footer>
     </div>
   );

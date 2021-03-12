@@ -1,13 +1,14 @@
 ---
 path: '/projects/visual-art'
-date: '2018-04'
+date: '2015-11'
 title: 'Visual Art'
 summary: 'A collection of my visual art.'
-thumbnail: ../../../images/overfishing.png
+thumbnail: '../../../images/overfishing.jpg'
+tags: ['art', 'collage', 'mixed media', '2015']
 author: 'Nick Sinclair'
 ---
 
-::: section block
+::: section full-image
 
 ## Form I
 
@@ -15,56 +16,55 @@ author: 'Nick Sinclair'
 
 ![Form I 2](../../../images/form_i_02.jpg)
 
-Form I, glazed red earthenware. 2015-11. 7cm x 16cm 11cm.
+_Form I, glazed red earthenware. 2015-11. 7cm x 16cm 11cm._
 
 :::
 
-::: section block
+::: section full-image
 
 ## Divide
 
 ![Divide](../../../images/divide.jpg)
 
-Found objects and primer on plywood. 2015-10. 122cm x 30.5cm
+_Found objects and primer on plywood. 2015-10. 122cm x 30.5cm_
 
 :::
 
-::: section block
+::: section full-image
 
 ## Overfishing
 
 ![Overfishing](../../../images/overfishing.jpg)
 
-Paper, cardboard, magazine cutouts, ink, and acrylic on plywood. 2015-05. 91.5cm x 51.5cm.
-
+_Paper, cardboard, magazine cutouts, ink, and acrylic on plywood. 2015-05. 91.5cm x 51.5cm._
 :::
 
-::: section block
+::: section full-image
 
 ## Snow
 
 ![Snow](../../../images/snow.jpg)
 
-Paper, acrylic, gouache, ink, and image transfer on plywood. 2015-03. 130cm x 24cm.
+_Paper, acrylic, gouache, ink, and image transfer on plywood. 2015-03. 130cm x 24cm._
 
 :::
 
-::: section block
+::: section full-image
 
 ## White Noise
 
 ![White Noise](../../../images/white_noise.jpg)
 
-Paper, image transfer, ink, gouache, and acrylic on plywood. 2015-03. 61cm x 65cm.
+_Paper, image transfer, ink, gouache, and acrylic on plywood. 2015-03. 61cm x 65cm._
 
 :::
 
-::: section block
+::: section full-image
 
 ## Wreck
 
 ![Wreck](../../../images/wreck.jpg)
 
-Paper, acrylic, and ink on plywood. 2014-10. 118cm x 61cm.
+_Paper, acrylic, and ink on plywood. 2014-10. 118cm x 61cm._
 
 :::

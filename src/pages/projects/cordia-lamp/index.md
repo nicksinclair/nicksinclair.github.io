@@ -3,7 +3,8 @@ path: '/projects/cordia-lamp'
 date: '2019-12'
 title: 'Cordia Lamp'
 summary: 'A modular and customizable lighting solution.'
-thumbnail: ../../../images/cordia_01.jpg
+thumbnail: '../../../images/cordia_01.jpg'
+tags: ['design', 'lighting', 'modular', 'spatial', '2019']
 author: 'Nick Sinclair'
 ---
 

@@ -22,8 +22,7 @@ body {
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
 
   background-color: $blue000;
-  // background-image: $foregroundPattern;
-  // background: $foregroundPattern;
+  background-image: $foregroundPattern;
   color: white;
 
   .site-container {
@@ -48,6 +47,11 @@ body {
 
           a {
             color: $yellowPrimary;
+            transition: 0.75s ease-out;
+
+            &:hover {
+              color: $blue200;
+            }
           }
         }
 
@@ -60,6 +64,7 @@ body {
               position: relative;
               padding: 6px;
 
+              // Yellow background hover animation
               background: linear-gradient(
                 to right,
                 $yellowPrimary 50%,
@@ -90,21 +95,46 @@ body {
 
     .content {
       grid-column: 3 / 4;
-      // background-color: $blue000;
 
       h1 {
         text-align: center;
+      }
+
+      em {
+        color: $blueSecondary;
       }
 
       a {
         text-decoration-line: underline;
         text-decoration-style: double;
         text-decoration-color: $yellowPrimary;
+
+        &:hover {
+          color: $yellowPrimary;
+          text-decoration-style: dotted;
+        }
+      }
+
+      .headshot {
+        border: $borderThin;
+      }
+
+      .project-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        // grid-template-rows: repeat(3, 1fr);
+
+        h3 {
+          text-align: center;
+          margin-block-start: 0;
+          margin-block-end: 1em;
+        }
       }
 
       .block {
         margin-top: 2rem;
         padding: 0 1rem;
+        background-color: $blue000;
         border: $borderThin;
 
         h2:first-of-type {
@@ -120,9 +150,12 @@ body {
 
       .full-image {
         margin-top: 2rem;
+        padding: 0 1rem;
+        background-color: $blue000;
         border: $borderThin;
 
         h2:first-of-type {
+          margin: 0 -1rem;
           margin-block: 0;
           padding-top: 0.25rem;
           padding-bottom: 0.5rem;
@@ -131,18 +164,18 @@ body {
           color: $blue000;
         }
 
-        // Fill images to container border
-        p {
+        // Give all captions a margin
+        p:not(:last-child) {
+          margin: 0 -1rem;
+          margin-block: 0;
+        }
+
+        // In the event the last child is also the first of type
+        p:first-of-type {
+          margin: 0 -1rem;
           margin-block: 0;
         }
       }
-
-      // img {
-      //   width: 100%;
-      //   margin-left: auto;
-      //   margin-right: auto;
-      //   border: $borderThin;
-      // }
 
       ul {
         padding: 1rem;

@@ -28,7 +28,7 @@ function Nav() {
           <li
             key={link.label}
             className={`menu-item ${
-              pathname === link.to ? 'current-menu-item' : ''
+              pathname.includes(link.to) ? 'current-menu-item' : ''
             } `}
           >
             <Link to={link.to}>{link.label}</Link>

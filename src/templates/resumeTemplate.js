@@ -11,9 +11,11 @@ export default function ResumeTemplate({ data }) {
     <Layout>
       <article className="resume-container">
         <h1>{frontmatter.title.toUpperCase()}</h1>
+
         <h4>
           <em>Updated {frontmatter.updated}</em>
         </h4>
+
         <a
           href={`mailto: ${frontmatter.email}`}
           target="_blank"
@@ -21,6 +23,7 @@ export default function ResumeTemplate({ data }) {
         >
           {frontmatter.email}
         </a>
+
         <div
           className="resume-content"
           dangerouslySetInnerHTML={{ __html: html }}

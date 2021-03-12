@@ -67,7 +67,7 @@ JavaScript, TypeScript, Java, Python, C, C#
 
 #### Web Development Technologies
 
-HTML, CSS, Sass, Less, React.js, p5.js, Node.js, Express.js, MongoDB, Babel, Mocha, Chai, Sanity
+HTML, CSS, Sass, Less, React.js, Gatsby.js, p5.js, Node.js, Express.js, MongoDB, GraphQL, Babel, Mocha, Chai, Sanity
 
 #### Other Technologies
 

@@ -3,7 +3,8 @@ path: '/projects/pulse-atrium'
 date: '2019-06'
 title: 'Pulse Atrium'
 summary: 'An interactive educational space concept.'
-thumbnail: ../../../images/pulse_01.png
+thumbnail: '../../../images/pulse_01.png'
+tags: ['design', 'architecture', 'interactive', 'spatial', '2019']
 author: 'Nick Sinclair'
 ---
 
@@ -51,7 +52,7 @@ We began by identifying a wide variety of **potential stakeholders** that may be
 
 ::: section full-image
 
-## Futures Students
+## Future Students
 
 ![Future Student](../../../images/persona_future_student.png)
 
@@ -132,7 +133,7 @@ After multiple interactions, we were able to visualize a **programmatic solution
 ## Cell Reservation
 
 <video width='320' controls>
-  <source src='../../../video/cell_reservation.mp4' type='video/mp4'>
+  <source src='../../../videos/cell_reservation.mp4' type='video/mp4'>
 </video>
 
 :::
@@ -185,8 +186,6 @@ After multiple interactions, we were able to visualize a **programmatic solution
 
 ## Video Presentation
 
-<video controls>
-  <source src='../../../video/pulse.mp4' type='video/mp4'>
-</video>
+[![Pulse Video](http://img.youtube.com/vi/jUAW-523Au0/maxresdefault.jpg)](http://www.youtube.com/watch?v=jUAW-523Au0)
 
 :::
