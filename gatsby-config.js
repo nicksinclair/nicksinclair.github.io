@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `personal-portfolio`,
-        short_name: `portfolio`,
+        name: `Nick Sinclair`,
+        short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#ffff33`,
         theme_color: `#ffff33`,
