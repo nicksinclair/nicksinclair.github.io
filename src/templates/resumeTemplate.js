@@ -42,7 +42,6 @@ export const projectQuery = graphql`
         updated
         title
         email
-        phone
       }
     }
   }

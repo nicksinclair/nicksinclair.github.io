@@ -15,13 +15,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `videos`,
-        path: `${__dirname}/src/videos`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `projects`,
         path: `${__dirname}/src/pages/projects`,
       },
@@ -39,13 +32,24 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `personal-portfolio`,
+        short_name: `portfolio`,
         start_url: `/`,
         background_color: `#ffff33`,
         theme_color: `#ffff33`,
         display: `minimal-ui`,
-        icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon@3x.png`, // This path is relative to the root of the site.
+        icon_options: {
+          // For all the options available,
+          // please see the section "Additional Resources" below.
+          purpose: `any maskable`,
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/projects/*`, `/resume/`],
       },
     },
     `gatsby-plugin-gatsby-cloud`,
@@ -55,7 +59,24 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-containers`,
+          {
+            resolve: 'gatsby-remark-embed-video',
+            options: {
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+              noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+              loadingStrategy: 'lazy', //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
+              urlOverrides: [
+                {
+                  id: 'youtube',
+                  embedURL: (videoId) =>
+                    `https://www.youtube-nocookie.com/embed/${videoId}`,
+                },
+              ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
+              containerClass: 'youtube-embed-container', //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
+              iframeId: true, //Optional: if true, iframe's id will be set to what is provided after 'video:' (YouTube IFrame player API requires iframe id)
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -64,12 +85,11 @@ module.exports = {
               showCaptions: false,
             },
           },
+          `gatsby-remark-containers`,
+          `gatsby-remark-lazy-load`,
         ],
       },
     },
     `gatsby-transformer-sharp`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 };

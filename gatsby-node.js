@@ -16,15 +16,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
+        limit: 50
       ) {
         edges {
           node {
             id
             frontmatter {
-              date
-              title
-              author
               path
             }
           }
@@ -35,22 +32,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const resumeResult = await graphql(`
     {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-        filter: { frontmatter: { path: { regex: "/resume/" } } }
-      ) {
-        edges {
-          node {
-            id
-            frontmatter {
-              date
-              title
-              author
-              path
-            }
-          }
+      markdownRemark(frontmatter: { path: { eq: "/resume" } }) {
+        frontmatter {
+          path
         }
+        id
       }
     }
   `);
@@ -68,10 +54,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     });
   });
 
-  resumeResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    createPage({
-      path: node.frontmatter.path,
-      component: resumeTemplate,
-    });
+  createPage({
+    path: resumeResult.data.markdownRemark.frontmatter.path,
+    component: resumeTemplate,
   });
 };

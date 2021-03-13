@@ -3156,19 +3156,29 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "gatsby-starter-default",
-    "short_name": "starter",
+    "name": "personal-portfolio",
+    "short_name": "portfolio",
     "start_url": "/",
-    "background_color": "#663399",
-    "theme_color": "#663399",
+    "background_color": "#ffff33",
+    "theme_color": "#ffff33",
     "display": "minimal-ui",
-    "icon": "src/images/favicon-32x32.png",
+    "icon": "src/images/favicon@3x.png",
+    "icon_options": {
+      "purpose": "any maskable"
+    },
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "abd95b76239ff080ce7606abba74ea08"
+    "cacheDigest": "09b50f79a52b7e828b8feb22bbfa97a4"
+  }
+}, {
+  name: 'gatsby-plugin-offline',
+  plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-offline/gatsby-ssr */ "./node_modules/gatsby-plugin-offline/gatsby-ssr.js"),
+  options: {
+    "plugins": [],
+    "precachePages": ["/projects/*", "/resume/"]
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -4733,6 +4743,58 @@ var _default = function _default(pathname, localizedManifests) {
 };
 
 exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-offline/gatsby-ssr.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/gatsby-plugin-offline/gatsby-ssr.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+exports.__esModule = true;
+exports.onRenderBody = exports.onPreRenderHTML = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
+
+var onPreRenderHTML = function onPreRenderHTML(_ref) {
+  var getHeadComponents = _ref.getHeadComponents,
+      pathname = _ref.pathname,
+      replaceHeadComponents = _ref.replaceHeadComponents;
+  if (pathname !== "/offline-plugin-app-shell-fallback/") return;
+  var headComponents = getHeadComponents();
+  var filteredHeadComponents = headComponents.filter(function (_ref2) {
+    var type = _ref2.type,
+        props = _ref2.props;
+    return !(type === "link" && props.as === "fetch" && props.rel === "preload" && (props.href.startsWith("/static/d/") || props.href.startsWith("/page-data/")));
+  });
+  replaceHeadComponents(filteredHeadComponents);
+};
+
+exports.onPreRenderHTML = onPreRenderHTML;
+
+var onRenderBody = function onRenderBody(_ref3) {
+  var pathname = _ref3.pathname,
+      setHeadComponents = _ref3.setHeadComponents;
+
+  if (pathname !== "/offline-plugin-app-shell-fallback/") {
+    return;
+  }
+
+  setHeadComponents([/*#__PURE__*/_react.default.createElement("noscript", {
+    key: "disable-offline-shell"
+  }, /*#__PURE__*/_react.default.createElement("meta", {
+    httpEquiv: "refresh",
+    content: "0;url=/.gatsby-plugin-offline:api=disableOfflineShell&redirect=true"
+  }))]);
+};
+
+exports.onRenderBody = onRenderBody;
 
 /***/ }),
 

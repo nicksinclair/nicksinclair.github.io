@@ -32,6 +32,8 @@ This initiative originated from the executive team at the **Georgia Institute of
 
 On this team, my primary contributions included **conducting interviews** with stakeholders, **developing user experience flows** for spatial interactions, **designing graphic collateral** for digital and physical presentations, **creating detailed and realistic still renderings** of elements of the atrium space, and **rendering complex yet clear animations** of the various interaction scenarios.
 
+The team members I collaborated with on this project were [Lucy Kates](https://lucykatesdesign.com/), [Jane Ilyasova](https://www.linkedin.com/in/jane-ilyasova-007a19159/), and [Monica Rizk](https://issuu.com/mrizk/docs/rizkmonica_portfolio).
+
 :::
 
 ::: section full-image
@@ -130,16 +132,6 @@ After multiple interactions, we were able to visualize a **programmatic solution
 
 ::: section full-image
 
-## Cell Reservation
-
-<video width='320' controls>
-  <source src='../../../videos/cell_reservation.mp4' type='video/mp4'>
-</video>
-
-:::
-
-::: section full-image
-
 ## Maker's Space
 
 ![Maker's Space](../../../images/makers_space.png)
@@ -164,11 +156,15 @@ After multiple interactions, we were able to visualize a **programmatic solution
 
 ::: section full-image
 
-## Exterior Installations
-
-![Exterior 1](../../../images/pulse_01.png)
+## Exterior Installation (Night)
 
 ![Exterior 2](../../../images/pulse_02.png)
+
+:::
+
+::: section full-image
+
+## Exterior Installation (Day)
 
 ![Exterior 3](../../../images/pulse_03.png)
 
@@ -178,7 +174,7 @@ After multiple interactions, we were able to visualize a **programmatic solution
 
 ## Site and Structure
 
-![Site and Structure](../../../images/site_structure)
+![Site and Structure](../../../images/site_structure.png)
 
 :::
 
@@ -186,6 +182,8 @@ After multiple interactions, we were able to visualize a **programmatic solution
 
 ## Video Presentation
 
-[![Pulse Video](http://img.youtube.com/vi/jUAW-523Au0/maxresdefault.jpg)](http://www.youtube.com/watch?v=jUAW-523Au0)
+`youtube: [Pulse Atrium](http://www.youtube.com/watch?v=jUAW-523Au0)`
+
+_Many thanks to my teammates Lucy Kates, Jane Ilyasova, and Monica Rizk._
 
 :::

@@ -4,7 +4,6 @@ import { globalHistory } from '@reach/router';
 
 const navLinks = [
   { label: 'PROJECTS', to: '/projects' },
-  // { label: 'ABOUT', to: '/about' },
   { label: 'RESUME', to: '/resume' },
 ];
 
@@ -29,7 +28,7 @@ function Nav() {
             key={link.label}
             className={`menu-item ${
               pathname.includes(link.to) ? 'current-menu-item' : ''
-            } `}
+            }`}
           >
             <Link to={link.to}>{link.label}</Link>
           </li>

@@ -3,7 +3,7 @@ path: '/projects/form-grid'
 date: '2021-02'
 title: 'Form Grid'
 summary: 'An interactive generative art project.'
-thumbnail: '../../../animations/form_grid_01.gif'
+thumbnail: '../../../images/form_grid_theme2_border_20.png'
 tags: ['generative', 'art', 'p5.js', 'webgl', '2021']
 author: 'Nick Sinclair'
 ---
@@ -20,8 +20,32 @@ The perfomance of this project is significantly better than that of [Shape Grid]
 
 ::: section full-image
 
-## Animations
+## Gray
 
-![Form Grid 1](../../../animations/form_grid_01.gif)
+![Form Grid Gray](../../../images/form_grid_theme1_border_20.png)
+
+:::
+
+::: section full-image
+
+## Cyan
+
+![Form Grid Cyan](../../../images/form_grid_theme2_border_20.png)
+
+:::
+
+::: section full-image
+
+## Magenta
+
+![Form Grid Magenta](../../../images/form_grid_theme3_border_20.png)
+
+:::
+
+::: section full-image
+
+## Yellow
+
+![Form Grid Yellow](../../../images/form_grid_theme4_border_20.png)
 
 :::

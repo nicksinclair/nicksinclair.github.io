@@ -3,7 +3,7 @@ path: '/projects/shape-cycle'
 date: '2021-02'
 title: 'Shape Cycle'
 summary: 'An interactive generative art project.'
-thumbnail: '../../../animations/shape_cycle_01.gif'
+thumbnail: '../../../images/shape_cycle_01.png'
 tags: ['generative', 'art', 'p5.js', 'canvas', '2021']
 author: 'Nick Sinclair'
 ---
@@ -18,8 +18,8 @@ author: 'Nick Sinclair'
 
 ::: section full-image
 
-## Animations
+## Magenta
 
-![Shape Cycle 1](../../../animations/shape_cycle_01.gif)
+![Shape Cycle 1](../../../images/shape_cycle_01.png)
 
 :::

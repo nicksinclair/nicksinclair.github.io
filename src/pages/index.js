@@ -10,8 +10,9 @@ const IndexPage = () => (
     <SEO title="Home" />
     <StaticImage
       className="headshot"
-      src="../images/headshot.png"
-      quality={95}
+      src="../images/headshot_02.png"
+      width={700}
+      quality={100}
       formats={['AUTO', 'WEBP', 'AVIF']}
       alt="Nick Sinclair"
       placeholder="blurred"

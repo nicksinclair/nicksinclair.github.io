@@ -29,19 +29,10 @@ const Layout = ({ children }) => {
         siteTitle={data.site.siteMetadata?.title.toUpperCase() || `Title`}
       />
 
-      <main
-        className="content"
-        style={{
-          maxWidth: `70ch`,
-          paddingLeft: `3.75rem`,
-          paddingBottom: `1.45rem`,
-        }}
-      >
-        {children}
-      </main>
+      <main className="content">{children}</main>
 
       <footer>
-        <h4>Created using React, Gatsby, GraphQL, Sass, and Markdown.</h4>
+        <p>Created using React, Gatsby, GraphQL, Sass, and Markdown.</p>
       </footer>
     </div>
   );
