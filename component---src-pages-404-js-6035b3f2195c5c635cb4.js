@@ -1,2 +1,0 @@
-(self.webpackChunkpersonal_portfolio=self.webpackChunkpersonal_portfolio||[]).push([[883],{9616:function(e,l,t){"use strict";t.r(l);var o=t(7294),n=t(2399),r=t(3751);l.default=function(){return o.createElement(n.Z,null,o.createElement(r.Z,{title:"404: Not found"}),o.createElement("h1",null,"Oops! 404: Not Found"),o.createElement("p",null,"Looks like you're lost. Here's a life ring... ~o"))}}}]);
-//# sourceMappingURL=component---src-pages-404-js-6035b3f2195c5c635cb4.js.map
