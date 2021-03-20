@@ -14,7 +14,7 @@ author: 'Nick Sinclair'
 
 [Interactive Website](https://nicksinclair.github.io/form-cycle)
 
-The perfomance of this project is significantly better than that of [Shape Cycle](nicksinclair.github.io/projects/shape-grid) due to its use of p5's WebGL renderer.
+The perfomance of this project is significantly better than that of [Shape Cycle](https://nicksinclair.github.io/projects/shape-grid) due to its use of p5's WebGL renderer.
 
 :::
 
