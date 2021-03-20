@@ -8,6 +8,7 @@ import SEO from '../components/seo';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+
     <StaticImage
       className="headshot"
       src="../images/headshot_02.png"
@@ -18,7 +19,9 @@ const IndexPage = () => (
       placeholder="blurred"
       style={{ marginBottom: `1.45rem` }}
     />
+
     <Link to="/projects">Go to Projects &rarr;</Link>
+
     <p>
       I'm a recent graduate from the{' '}
       <strong>Georgia Institute of Technology</strong> in{' '}
@@ -26,6 +29,7 @@ const IndexPage = () => (
       <strong>Industrial Design</strong> with a minor in{' '}
       <strong>Computing & Media</strong>.
     </p>
+
     <p>
       I love anything having to do with computers, and I thrive being at the
       intersection of <strong>creativity</strong> and{' '}
@@ -34,6 +38,7 @@ const IndexPage = () => (
       <strong>virtual reality</strong>, <strong>augmented reality</strong>, and{' '}
       <strong>video games</strong>.
     </p>
+
     <p>
       Some of my personal interests include experimenting with new media to
       create <strong>art</strong>, exploring the open worlds of role-playing{' '}

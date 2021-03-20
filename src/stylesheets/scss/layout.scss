@@ -1,5 +1,6 @@
 @import 'imports', 'config';
 
+// Global Styles
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -30,12 +31,14 @@ body {
     min-height: 100vh;
     padding-top: 60px;
 
+    // Desktop
     @media (min-width: $breakpoint-desktop) {
       display: grid;
       grid-template-rows: 1fr auto;
       grid-template-columns: 1fr auto minmax(65ch, 1fr) 1fr;
     }
 
+    // Mobile
     @media (max-width: $breakpoint-desktop) {
       margin: 0 5%;
     }
@@ -44,6 +47,7 @@ body {
       grid-column: 2 / 3;
 
       .sticky-container {
+        // Desktop
         @media (min-width: $breakpoint-desktop) {
           position: -webkit-sticky; // Safari
           position: sticky;
@@ -52,6 +56,7 @@ body {
           border-left: $border;
         }
 
+        // Mobile
         @media (max-width: $breakpoint-desktop) {
           max-width: fit-content;
           margin: 0 auto;
@@ -70,26 +75,34 @@ body {
         }
 
         .nav-container {
-          li {
-            a {
-              display: block;
-              position: relative;
-              padding: 6px;
+          padding-top: 10px;
 
-              // Yellow background hover animation
-              background: linear-gradient(
-                to right,
-                $yellowPrimary 50%,
-                transparent 50%
-              );
-              background-size: 250% 100%;
-              background-position: right bottom;
-              transition: 0.75s ease-out;
+          ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
 
-              &:hover {
-                color: $blue000;
-                font-weight: bold;
-                background-position: left bottom;
+            li {
+              a {
+                display: block;
+                position: relative;
+                padding: 6px;
+
+                // Yellow background hover animation
+                background: linear-gradient(
+                  to right,
+                  $yellowPrimary 50%,
+                  transparent 50%
+                );
+                background-size: 250% 100%;
+                background-position: right bottom;
+                transition: 0.75s ease-out;
+
+                &:hover {
+                  color: $blue000;
+                  font-weight: bold;
+                  background-position: left bottom;
+                }
               }
             }
           }
@@ -109,11 +122,13 @@ body {
       max-width: 70ch;
       padding-bottom: 1.5rem;
 
+      // Desktop
       @media (min-width: $breakpoint-desktop) {
         grid-column: 3 / 4;
         padding-left: 3.75rem;
       }
 
+      // Mobile
       @media (max-width: $breakpoint-desktop) {
         margin: 2rem auto 0 auto;
       }
@@ -146,6 +161,7 @@ body {
       .project-card-grid {
         display: grid;
 
+        // Desktop
         @media (min-width: $breakpoint-desktop) {
           grid-template-columns: repeat(2, 1fr);
         }

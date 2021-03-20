@@ -9,9 +9,11 @@ const path = require('path');
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
 
+  // Resolve template paths
   const projectTemplate = path.resolve('src/templates/projectTemplate.js');
   const resumeTemplate = path.resolve('src/templates/resumeTemplate.js');
 
+  // Query all project page paths
   const projectResult = await graphql(`
     {
       allMarkdownRemark(
@@ -30,6 +32,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
   `);
 
+  // Query resume page path
   const resumeResult = await graphql(`
     {
       markdownRemark(frontmatter: { path: { eq: "/resume" } }) {
@@ -47,6 +50,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return;
   }
 
+  // For each project, create the page dynamically
   projectResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
@@ -54,6 +58,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     });
   });
 
+  // Create the resume page dynamically
   createPage({
     path: resumeResult.data.markdownRemark.frontmatter.path,
     component: resumeTemplate,

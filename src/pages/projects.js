@@ -8,6 +8,7 @@ import SEO from '../components/seo';
 const Projects = ({ data }) => (
   <Layout>
     <SEO title="Projects" />
+
     <h1>PROJECTS</h1>
 
     <div className="project-card-grid">
@@ -19,8 +20,10 @@ const Projects = ({ data }) => (
               image={getImage(project.node.frontmatter.thumbnail)}
               alt={project.node.title}
             />
+
             <header className="project-card-header">
               <h2>{project.node.frontmatter.title.toUpperCase()}</h2>
+
               <p>
                 <em>{project.node.frontmatter.date}</em>
               </p>
