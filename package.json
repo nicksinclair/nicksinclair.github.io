@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Nick Sinclair <nick.sinclair98@gmail.com>",
   "dependencies": {
+    "@mkitio/gatsby-theme-password-protect": "^2.1.2",
     "gatsby": "^3.0.0",
     "gatsby-plugin-catch-links": "^3.0.0",
     "gatsby-plugin-gatsby-cloud": "^2.0.0",

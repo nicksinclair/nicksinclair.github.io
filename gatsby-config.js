@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
     title: `Nick Sinclair`,
@@ -53,6 +55,13 @@ module.exports = {
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sass`,
+    {
+      resolve: '@mkitio/gatsby-theme-password-protect',
+      options: {
+        password: 'project', // delete or `undefined` to disable password protection
+        pagePaths: ['/projects'],
+      },
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
