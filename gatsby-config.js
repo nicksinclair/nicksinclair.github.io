@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 module.exports = {
   siteMetadata: {
     title: `Nick Sinclair`,
@@ -58,8 +56,9 @@ module.exports = {
     {
       resolve: '@mkitio/gatsby-theme-password-protect',
       options: {
-        password: 'project', // delete or `undefined` to disable password protection
-        pagePaths: ['/projects'],
+        password: 'itential', // delete or `undefined` to disable password protection
+        partialMatching: true,
+        pagePaths: ['/projects/itential'],
       },
     },
     {

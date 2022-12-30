@@ -16,7 +16,7 @@ const styles = {
   input: {
     width: '100%',
     height: '48px',
-    border: '2px solid #727d8e',
+    border: '2px solid #a1b0c6',
     borderRadius: '4px',
   },
   button: {
