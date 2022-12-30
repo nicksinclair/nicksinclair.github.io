@@ -91,6 +91,12 @@ module.exports = {
               showCaptions: false,
             },
           },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'media',
+            },
+          },
           `gatsby-remark-containers`,
           `gatsby-remark-lazy-load`,
         ],

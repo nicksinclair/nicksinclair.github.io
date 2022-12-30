@@ -16,3 +16,35 @@ author: 'Nick Sinclair'
 TODO
 
 :::
+
+::: section full-image
+
+## Workspace Dashboard
+
+![Workspace Dashboard](../../../images/cloud/dashboard_operate-workspace.png)
+
+:::
+
+::: section full-image
+
+## Analytics Page
+
+![Analytics Page](../../../images/cloud/page_analytics.png)
+
+:::
+
+::: section full-image
+
+## Filter Data User Flow
+
+![Filter Data User Flow](../../../images/cloud/flow_filter-data.png)
+
+:::
+
+::: section full-image
+
+## Filter Data Prototype
+
+![Filter Data Prototype](../../../images/cloud/gif_filter-data.gif)
+
+:::

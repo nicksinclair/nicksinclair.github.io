@@ -16,3 +16,43 @@ author: 'Nick Sinclair'
 TODO
 
 :::
+
+::: section full-image
+
+## Resource Schema Page
+
+![Resource Schema Page](../../../images/lifecycle-manager/page_resource-schema.png)
+
+:::
+
+::: section full-image
+
+## Resource Instances Page
+
+![Rsource Instances Page](../../../images/lifecycle-manager/page_resource-instances.png)
+
+:::
+
+::: section full-image
+
+## Resource Instance Details Page
+
+![Resource Instance Details Page](../../../images/lifecycle-manager/page_resource-instance-details.png)
+
+:::
+
+::: section full-image
+
+## Resource Operations Page
+
+![Resource Operatinos Page](../../../images/lifecycle-manager/page_resource-operations.png)
+
+:::
+
+::: section full-image
+
+## Create Operation Prototype
+
+![Create Operation Prototype](../../../images/lifecycle-manager/gif_create-operation.gif)
+
+:::
