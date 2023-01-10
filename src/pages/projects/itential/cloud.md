@@ -3,7 +3,7 @@ path: '/projects/itential/cloud-operate'
 date: '2022-12'
 title: 'Operate - Cloud Workspace'
 summary: 'Cloud - Operate Workspace'
-thumbnail: '../../../images/coming_soon.png'
+thumbnail: '../../../images/itential-logo-bg.png'
 tags:
   ['design', 'ui', 'ux', 'design system', 'web', 'figma', 'application', '2022']
 author: 'Nick Sinclair'
