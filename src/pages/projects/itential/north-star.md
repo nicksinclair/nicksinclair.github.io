@@ -16,3 +16,11 @@ author: 'Nick Sinclair'
 TODO
 
 :::
+
+::: section block
+
+## Disclaimer
+
+_Due to circumstances related to my employment, I am limited in what I can show for this project. I do not claim to own any of the work shown here as it is all property of Itential._
+
+:::

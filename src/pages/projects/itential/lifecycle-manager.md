@@ -1,11 +1,10 @@
 ---
 path: '/projects/itential/lifecycle-manager'
-date: '2022-12'
+date: '2023-01'
 title: 'Lifecycle Manager'
-summary: 'Lifecycle Manager'
+summary: 'A web application designed to record entity lifecycle.'
 thumbnail: '../../../images/itential-logo-bg.png'
-tags:
-  ['design', 'ui', 'ux', 'design system', 'web', 'figma', 'application', '2022']
+tags: ['design', 'ui', 'ux', 'web', 'figma', 'application', '2022']
 author: 'Nick Sinclair'
 ---
 
@@ -80,5 +79,13 @@ I operated as the lead (and only) designer of this application. My work largely 
 - **Building production grade UI designs** in Figma to then be consumed by the engineering team.
 
 At this time, the Lifecycle Manager application is unreleased. Upon release, plans exist to conduct moderated usability testing on specific user flows. Unfortunately, the project team was not afforded enough time to conduct any type of testing during its initial development lifecycle.
+
+:::
+
+::: section block
+
+## Disclaimer
+
+_Due to circumstances related to my employment, I am limited in what I can show for this project. I do not claim to own any of the work shown here as it is all property of Itential._
 
 :::
