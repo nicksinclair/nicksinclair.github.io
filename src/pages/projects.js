@@ -18,7 +18,7 @@ const Projects = ({ data }) => (
             <GatsbyImage
               className="project-card-image"
               image={getImage(project.node.frontmatter.thumbnail)}
-              alt={project.node.title}
+              alt={project.node.frontmatter.title}
             />
 
             <header className="project-card-header">

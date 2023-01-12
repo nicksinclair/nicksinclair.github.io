@@ -54,6 +54,14 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sass`,
     {
+      resolve: '@mkitio/gatsby-theme-password-protect',
+      options: {
+        password: 'itential', // delete or `undefined` to disable password protection
+        partialMatching: true,
+        pagePaths: ['/projects/itential'],
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -81,6 +89,12 @@ module.exports = {
               maxWidth: 1000,
               quality: 100,
               showCaptions: false,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'media',
             },
           },
           `gatsby-remark-containers`,

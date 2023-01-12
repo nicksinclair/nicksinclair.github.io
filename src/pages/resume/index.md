@@ -13,9 +13,20 @@ website: 'nicksinclair.github.io'
 
 #### [Itential](https://www.itential.com/)
 
+UI/UX Designer
+
+_August 2021 - Present_
+
+- Owned the end-to-end user experience of a key application in the company’s product offering
+- Collaborated regularly with cross-functional teams of frontend and backend developers, product managers and software architects to move new feature work forward
+- Created the infrastructure for conducting usability testing internally across the company’s multiple app teams resulting in clearer feedback and savings on third party testing platforms
+- Contributed major UI design work spanning from navigation, notifications, search and settings towards a redesign effort of Itential’s SaaS offering of its Automation Platform
+- Revised and built a comprehensive design system in Figma, resulting in a significant reduction in design revision time and a consistent aesthetic across the product
+- Led focus groups with customer facing internal team members to better understand gaps in product features and demo new UX and UI design work
+
 Software Engineer
 
-_July 2020 - Present_
+_July 2020 - August 2021_
 
 Atlanta, GA
 
@@ -43,7 +54,7 @@ Holland, MI
 
 ## Education
 
-#### [Georgia Institute of Technology](https://www.gatech.edu/)
+#### [Georgia Institute of Technology](https://id.gatech.edu/)
 
 BS **Industrial Design**, **Computing + Media**
 
@@ -61,6 +72,14 @@ Highest Honors
 
 ## Skills
 
+#### 2D Design
+
+Photoshop, Illustrator, Indesign, Figma, XD, InVision, Premiere Pro, AfterEffects
+
+#### 3D Design
+
+SolidWorks, Fusion360, 3ds Max, SketchUp, Unity, Unreal Engine, KeyShot, VRED Pro, V-Ray, Lumion, Substance Designer
+
 #### Languages
 
 JavaScript, TypeScript, Java, Python, C, C#
@@ -72,13 +91,5 @@ HTML, CSS, Sass, Less, React.js, Gatsby.js, p5.js, Node.js, Express.js, MongoDB,
 #### Other Technologies
 
 Git, JSON, Processing, WebGL, GLSL, Three.js
-
-#### 2D Design
-
-Photoshop, Illustrator, Indesign, Figma, XD, InVision, Premiere Pro, AfterEffects
-
-#### 3D Design
-
-SolidWorks, Fusion360, 3ds Max, SketchUp, Unity, Unreal Engine, KeyShot, VRED Pro, V-Ray, Lumion, Substance Designer
 
 :::
