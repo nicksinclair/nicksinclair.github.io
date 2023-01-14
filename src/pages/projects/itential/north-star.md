@@ -1,6 +1,6 @@
 ---
 path: '/projects/itential/north-star'
-date: '2022-12'
+date: '2023-01'
 title: 'North Star Design System'
 summary: 'A flexible and composable design system created in Figma.'
 thumbnail: '../../../images/itential-logo-bg.png'
