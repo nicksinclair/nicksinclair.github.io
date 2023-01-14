@@ -11,9 +11,9 @@ website: 'nicksinclair.github.io'
 
 ## Experience
 
-#### [Itential](https://www.itential.com/)
+### [Itential](https://www.itential.com/)
 
-UI/UX Designer
+#### UI/UX Designer
 
 _August 2021 - Present_
 
@@ -24,7 +24,7 @@ _August 2021 - Present_
 - Revised and built a comprehensive design system in Figma, resulting in a significant reduction in design revision time and a consistent aesthetic across the product
 - Led focus groups with customer facing internal team members to better understand gaps in product features and demo new UX and UI design work
 
-Software Engineer
+#### Software Engineer
 
 _July 2020 - August 2021_
 
@@ -34,9 +34,9 @@ Atlanta, GA
 - Developed and delivered a library of prebuilt solutions for customers to promote product enablement using internal tools and Python templating engines
 - Handled bug fixes for a product offering that generates API integrations to Itential's primary software
 
-#### [Herman Miller](https://www.hermanmiller.com/)
+### [Herman Miller](https://www.hermanmiller.com/)
 
-3D Visualization Design Intern
+#### 3D Visualization Design Intern
 
 _May 2019 - May 2020_
 
@@ -54,7 +54,7 @@ Holland, MI
 
 ## Education
 
-#### [Georgia Institute of Technology](https://id.gatech.edu/)
+### [Georgia Institute of Technology](https://id.gatech.edu/)
 
 BS **Industrial Design**, **Computing + Media**
 
