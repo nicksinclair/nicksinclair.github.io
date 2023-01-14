@@ -191,6 +191,7 @@ body {
           .project-card-header {
             background-color: $yellowPrimary;
             padding: 0.5rem 0 0.25rem 1rem;
+            height: 100%;
 
             h2 {
               color: $blue000;
@@ -402,6 +403,7 @@ pre,
 samp {
   font-family: monospace;
   font-size: 1em;
+  color: $yellowPrimary;
 }
 
 figure {
