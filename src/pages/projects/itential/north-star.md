@@ -21,7 +21,16 @@ TODO
 
 ## Contribution
 
-TODO
+I operated as a supporting designer on this project. Some of my responsbilities included:
+
+- **Leveraging variants, interactive components, component properties and nested instances** to create flexible and versatile components in Figma.
+- **Revamping the color library organization** using a token-based approach to support theming capabilities.
+- **Testing component responsiveness, composability, interactivity and reusability** to ensure a high-quality designer experience.
+- **Writing comprehensive spec sheets** that highlight component formatting, behavior and states for development use.
+- **Collaborating closely with the development team** to bring the components and their interactions to life.
+- **Quality testing developed components** to ensure that they met the defined specs.
+- **Maintaining the overall library using Figma's version control system** to avoid component breakage and other negative downstream effects.
+- **Educating other designers on the team** about effective component use and best practices.
 
 :::
 
@@ -29,7 +38,9 @@ TODO
 
 ## Components
 
-TODO
+Each component was built with **reusability and composability** in mind. **Variants and slots** were heavily utilized in order create a system that scales with the evolving needs of the UI designers on the team. In many cases, **base components** were created so that they could house shared properties that were accessible across different variants using **nested instances**. **Variant tables** were generated for each type of component to allow other designers to understand the possible usable combinations when building out interfaces.
+
+The following images highlight a few examples of the high-quality components we were able to produce using these practices.
 
 :::
 
@@ -102,6 +113,22 @@ TODO
 ## Tab
 
 ![Tab Variants](../../../images/north-star/tab/tab_variants.png)
+
+:::
+
+::: section block
+
+## Specifications
+
+A **specification sheet** was created in Figma for each component type in order to communicate to development as well as to other designers information about the component's format, behavior and state. These specs would serve as a **singular source of truth** for development related tasks, resulting in a streamlined handoff with engineering.
+
+:::
+
+::: section full-image
+
+## Specification Sheet Example - Notification
+
+![Notification Spec Sheet](../../../images/north-star/notification/notification_spec.png)
 
 :::
 
