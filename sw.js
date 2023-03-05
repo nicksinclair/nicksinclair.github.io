@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-9389eae1c818a9677198.js"
+    "url": "webpack-runtime-2da57ffe2496852679b8.js"
   },
   {
     "url": "framework-f8b6d3dbac13973f4b32.js"
@@ -37,7 +37,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "0b3bce535b680e1473f103bb85620d57"
+    "revision": "abcc8b616404a21379f77d9d47193eb1"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b67d8270ce843bd6425d.js"
@@ -61,7 +61,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "954909772e62272f7c5d475a0eac048c"
+    "revision": "d3ffcc613b1e797966fa1ec3cd6dda8b"
   },
   {
     "url": "page-data/projects/digital-art/page-data.json",
@@ -110,7 +110,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/resume/page-data.json",
-    "revision": "47ca2c9a08ef8e14812ee1b19fc7b7d0"
+    "revision": "6a9348a988ec407d95ecda0764d0dc9c"
   },
   {
     "url": "manifest.webmanifest",
