@@ -13,30 +13,30 @@ website: 'nicksinclair.github.io'
 
 ### [Itential](https://www.itential.com/)
 
-#### UI/UX Designer
+#### **Product Designer**
 
 _August 2021 - Present_
 
-- Owned the end-to-end user experience of a key application in the company’s product offering
+- Owned and deployed the end-to-end user experience of multiple key applications in Itential's product offering
 - Collaborated regularly with cross-functional teams of frontend and backend developers, product managers and software architects to move new feature work forward
-- Created the infrastructure for conducting usability testing internally across the company’s multiple app teams resulting in clearer feedback and savings on third party testing platforms
-- Contributed major UI design work spanning from navigation, notifications, search and settings towards a redesign effort of Itential’s SaaS offering of its Automation Platform
-- Revised and built a comprehensive design system in Figma, resulting in a significant reduction in design revision time and a consistent aesthetic across the product
-- Led focus groups with customer facing internal team members to better understand gaps in product features and demo new UX and UI design work
+- Created the infrastructure for conducting usability testing across the company’s multiple app teams resulting in clearer feedback and savings on third party testing platforms
+- Revised and built a comprehensive design system in Figma, resulting in a significant reduction in design revision time and a consistent experience and aesthetic across the product
+- Contributed major UI design work spanning from navigation, notifications, search and settings towards a redesign effort of Itential’s SaaS platform
+- Led focus groups and co-design sessions with customers to better understand gaps in product features and demo new UX and UI design work
 
-#### Software Engineer
+#### **Software Engineer**
 
 _July 2020 - August 2021_
 
 Atlanta, GA
 
-- Developed and tested a dashboard UI for viewing general and detailed job metrics that leverages an internal API using React, Mocha, and Chai
-- Developed and delivered a library of prebuilt solutions for customers to promote product enablement using internal tools and Python templating engines
-- Handled bug fixes for a product offering that generates API integrations to Itential's primary software
+- Developed and tested a dashboard UI that leverages an internal API using React, Mocha, and Chai where customers can view general and detailed automation metrics
+- Delivered a library of prebuilt solutions for customers to promote product enablement using internal tools and Python templating engines
+- Handled bug fixes for Adapter Builder, a product that generates API integrations to Itential's platform
 
 ### [Herman Miller](https://www.hermanmiller.com/)
 
-#### 3D Visualization Design Intern
+#### **3D Visualization Design Intern**
 
 _May 2019 - May 2020_
 
@@ -74,7 +74,7 @@ Highest Honors
 
 #### 2D Design
 
-Photoshop, Illustrator, Indesign, Figma, XD, InVision, Premiere Pro, AfterEffects
+Figma, Photoshop, Illustrator, InDesign, InVision
 
 #### 3D Design
 
@@ -82,14 +82,26 @@ SolidWorks, Fusion360, 3ds Max, SketchUp, Unity, Unreal Engine, KeyShot, VRED Pr
 
 #### Languages
 
-JavaScript, TypeScript, Java, Python, C, C#
+JavaScript, Java, Python, C#
 
 #### Web Development Technologies
 
-HTML, CSS, Sass, Less, React.js, Gatsby.js, p5.js, Node.js, Express.js, MongoDB, GraphQL, Babel, Mocha, Chai, Sanity
+HTML, CSS, Sass, React.js, Node.js, Express.js, MongoDB, GraphQL, p5.js, Mocha, Chai
 
 #### Other Technologies
 
 Git, JSON, Processing, WebGL, GLSL, Three.js
+
+:::
+
+::: section block
+
+## Interests
+
+- Playing guitar in my band, [Couples Therapy](https://instagram.com/thiscoupleneedstherapy?igshid=ZDdkNTZiNTM=)
+- Experimenting with new media to create art
+- Exploring the open worlds of role-playing video games
+- Keeping up with the NBA (Go Hawks!)
+- Discovering new niches of Atlanta with my friends
 
 :::

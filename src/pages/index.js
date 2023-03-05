@@ -22,10 +22,12 @@ const IndexPage = () => (
 
     <Link to="/projects">Go to Projects &rarr;</Link>
 
+    <h2>Hi, I'm Nick!</h2>
+
     <p>
-      I'm a recent graduate from the{' '}
-      <strong>Georgia Institute of Technology</strong> in{' '}
-      <strong>Atlanta, GA</strong> where I studied{' '}
+      I'm a <strong>product designer</strong> based in{' '}
+      <strong>Atlanta, GA</strong>. I went to school at the{' '}
+      <strong>Georgia Institute of Technology</strong> where I studied{' '}
       <strong>Industrial Design</strong> with a minor in{' '}
       <strong>Computing & Media</strong>.
     </p>
@@ -35,16 +37,15 @@ const IndexPage = () => (
       intersection of <strong>creativity</strong> and{' '}
       <strong>technology</strong>. While in school, I became increasingly
       interested in digital media and visualization, specifically{' '}
-      <strong>virtual reality</strong>, <strong>augmented reality</strong>, and{' '}
+      <strong>generative art</strong>, <strong>mixed reality</strong>, and{' '}
       <strong>video games</strong>.
     </p>
 
     <p>
-      Some of my personal interests include experimenting with new media to
-      create <strong>art</strong>, exploring the open worlds of role-playing{' '}
-      <strong>video games</strong>, keeping up with the{' '}
-      <strong>basketball</strong> world, and discovering new niches of Atlanta
-      with my friends.
+      My work has primarily centered around simplifying inherently complex
+      systems as well as building novel features to address latent needs. I find
+      the most difficult yet rewarding aspect of my work is uncovering
+      meaningful insights from users that drive continuous product improvement.
     </p>
   </Layout>
 );

@@ -78,7 +78,7 @@ I operated as the lead (and only) designer of this application. My work largely 
 - **Iterating on user flows** derived from stories presented by product management.
 - **Building production grade UI designs** in Figma to then be consumed by the engineering team.
 
-At this time, the Lifecycle Manager application is unreleased. Upon release, plans exist to conduct moderated usability testing on specific user flows. Unfortunately, the project team was not afforded enough time to conduct any type of testing during its initial development lifecycle.
+At this time, the Lifecycle Manager application is unreleased. Upon release, plans exist to conduct moderated usability testing on specific user flows.
 
 :::
 
