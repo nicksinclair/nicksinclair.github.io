@@ -25,11 +25,11 @@ const IndexPage = () => (
     <h2>Hi, I'm Nick!</h2>
 
     <p>
-      I'm a <strong>product designer</strong> based in{' '}
-      <strong>Atlanta, GA</strong>. I went to school at the{' '}
+      I'm a <strong>software engineer</strong> based in{' '}
+      <strong>Atlanta, GA</strong>. I graduated from the{' '}
       <strong>Georgia Institute of Technology</strong> where I studied{' '}
-      <strong>Industrial Design</strong> with a minor in{' '}
-      <strong>Computing & Media</strong>.
+      <strong>industrial design</strong> with a minor in{' '}
+      <strong>computer science</strong>.
     </p>
 
     <p>
@@ -42,10 +42,9 @@ const IndexPage = () => (
     </p>
 
     <p>
-      My work has primarily centered around simplifying inherently complex
-      systems as well as building novel features to address latent needs. I find
-      the most difficult yet rewarding aspect of my work is uncovering
-      meaningful insights from users that drive continuous product improvement.
+      I currently work at <strong>Hypar</strong>, where we're building an
+      approachable and collaborative space planning tool for architects and
+      designers.
     </p>
   </Layout>
 );
