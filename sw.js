@@ -27,33 +27,33 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-2da57ffe2496852679b8.js"
+    "url": "webpack-runtime-897f71aacb0ced81076f.js"
   },
   {
-    "url": "framework-f8b6d3dbac13973f4b32.js"
+    "url": "framework-040b7a950aa57e2f0877.js"
   },
   {
-    "url": "app-09c99f487f0dd6bd16d8.js"
+    "url": "app-61df6ea638c0503441aa.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "abcc8b616404a21379f77d9d47193eb1"
+    "revision": "def14877ae50a7130b57bb4d46ed30dc"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b67d8270ce843bd6425d.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-ce752ef8374a2cb96a79.js"
   },
   {
-    "url": "polyfill-0ea0cee113c898b9a3ae.js"
+    "url": "polyfill-1694e1575ebc9de30259.js"
   },
   {
-    "url": "styles.5df92495b495cd799e7d.css"
+    "url": "styles.f587dc8e9ed821cfb86f.css"
   },
   {
-    "url": "component---src-templates-project-template-js-6cb546443a92d10dc09c.js"
+    "url": "component---src-templates-project-template-js-75411b16a2620e6ea818.js"
   },
   {
     "url": "page-data/projects/cordia-lamp/page-data.json",
-    "revision": "fd044aea82d5f9949f598c4f81799e3c"
+    "revision": "9c05719b876feb9854cef8912758ecaa"
   },
   {
     "url": "page-data/sq/d/3649515864.json",
@@ -61,29 +61,29 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "d3ffcc613b1e797966fa1ec3cd6dda8b"
+    "revision": "3c41bb1e51db00d8d94fb7db47aae9a9"
   },
   {
     "url": "page-data/projects/digital-art/page-data.json",
-    "revision": "3d7600387ee56d349cc09d104667dab4"
+    "revision": "8c1de25ffd976071bfde7dc743e6b147"
   },
   {
     "url": "page-data/projects/form-cycle/page-data.json",
-    "revision": "493aa0cdd1e0c8719d6cfcacbbf2b35f"
+    "revision": "a1315410be2eedc10b140721910f317c"
   },
   {
     "url": "page-data/projects/form-grid/page-data.json",
-    "revision": "a7695942908e49c6ddc2aef89d2f8fe8"
+    "revision": "e8d12feef3341c277e990883d5111c14"
   },
   {
-    "url": "abdabb9fcef4ccbca324eb64164d0b89f83609dc-e0c67ef3c7234fee61fa.js"
+    "url": "abdabb9fcef4ccbca324eb64164d0b89f83609dc-869a449955d24fe7e946.js"
   },
   {
-    "url": "component---src-pages-projects-js-91a62f193fcf06fe3a90.js"
+    "url": "component---src-pages-projects-js-87a542bc90730b05e984.js"
   },
   {
     "url": "page-data/projects/page-data.json",
-    "revision": "b27189093d292ca28d2ae3c97b48d3b7"
+    "revision": "cd22c50f51b11a008af075fcee5403b9"
   },
   {
     "url": "page-data/sq/d/63159454.json",
@@ -91,26 +91,26 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/projects/pulse-atrium/page-data.json",
-    "revision": "28b82a7a44f48b225bf89c43321c3fe3"
+    "revision": "3dd2c49dedc9138629efb8b9b5ddd15f"
   },
   {
     "url": "page-data/projects/shape-cycle/page-data.json",
-    "revision": "a0f186cc749491f0a17824e7cda4bc9c"
+    "revision": "73617d1834a46ecc8cb0afdaafb8e032"
   },
   {
     "url": "page-data/projects/shape-grid/page-data.json",
-    "revision": "61804d0a19937164fa67156e8115a44e"
+    "revision": "01a6bbb3ea1118b8ab4ec57189179d18"
   },
   {
     "url": "page-data/projects/visual-art/page-data.json",
-    "revision": "7650ecd69bb21160ce366d11648067c0"
+    "revision": "8e65dccd8a71dcfcee07c69c4b0220a5"
   },
   {
-    "url": "component---src-templates-resume-template-js-b08ec1aefd978d82a4f9.js"
+    "url": "component---src-templates-resume-template-js-cb603eddced020ac2204.js"
   },
   {
     "url": "page-data/resume/page-data.json",
-    "revision": "6a9348a988ec407d95ecda0764d0dc9c"
+    "revision": "04b8e691dd6ef9aa9a2c180de78cf931"
   },
   {
     "url": "manifest.webmanifest",
@@ -206,7 +206,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-09c99f487f0dd6bd16d8.js`))) {
+  if (!resources || !(await caches.match(`/app-61df6ea638c0503441aa.js`))) {
     return await fetch(event.request)
   }
 

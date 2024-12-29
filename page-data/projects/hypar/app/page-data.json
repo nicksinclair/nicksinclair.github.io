@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-project-template-js",
+    "path": "/projects/hypar/app",
+    "result": {"data":{"markdownRemark":{"html":"<section class=\"block\"><h2>Work in Progress</h2><p>I'm still working on what I want this page to look like.</p><p>For now, feel free to try out Hypar on your own by visiting <a href=\"https://www.hypar.io\">hypar.io</a>.</p></section>","frontmatter":{"path":"/projects/hypar/app","date":"2024-12","title":"Hypar - Space Planning App","summary":"A collaborative and approachable space planning tool for architects and designers.","author":"Nick Sinclair"}}},"pageContext":{}},
+    "staticQueryHashes": ["3649515864"]}
