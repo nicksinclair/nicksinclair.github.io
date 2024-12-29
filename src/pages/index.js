@@ -26,7 +26,7 @@ const IndexPage = () => (
 
     <p>
       I'm a <strong>software engineer</strong> based in{' '}
-      <strong>Atlanta, GA</strong>. I went to school at the{' '}
+      <strong>Atlanta, GA</strong>. I graduated from the{' '}
       <strong>Georgia Institute of Technology</strong> where I studied{' '}
       <strong>industrial design</strong> with a minor in{' '}
       <strong>computer science</strong>.

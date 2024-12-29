@@ -19,7 +19,7 @@ _May 2023 - Present_
 
 - Led impact-driven development efforts on frontend projects including establishing a design
   system, exporting images, generating furniture suggestions, and displaying real-time metrics
-- Designed and built a real-time API for publishing and retrieving elements for use in example-based suggestions
+- Designed and built a real-time API for publishing and retrieving elements for use in example-based suggestions using AWS API Gateway (Web Sockets), Lambda, and DynamoDB
 - Designed and built a centralized permissions framework utilizing AWS Verified Permissions,
   simplifying authorization logic and testing and enabling scalable content sharing features
 - Resolved API Gateway throttling with batch processing and chunked messaging, improving
@@ -84,6 +84,9 @@ Highest Honors
 ::: section block
 
 ## Skills
+
+Frontend Web Development, Responsive Web Design, Design System Development, User
+Experience Design, Prototyping, API Design (REST and WebSockets), System Design
 
 #### Design
 
