@@ -11,7 +11,7 @@ website: 'nicksinclair.github.io'
 
 ## Experience
 
-### [Hypar](https://hypar.io/)
+### [Hypar](https://www.hypar.io/)
 
 #### **Software Engineer**
 
