@@ -18,12 +18,12 @@ website: 'nicksinclair.github.io'
 _May 2023 - Present_
 
 - Led impact-driven development efforts on frontend projects including establishing a design
-system, exporting images, generating furniture suggestions, and displaying real-time metrics
+  system, exporting images, generating furniture suggestions, and displaying real-time metrics
 - Designed and built a real-time API for publishing and retrieving elements for use in example-based suggestions
 - Designed and built a centralized permissions framework utilizing AWS Verified Permissions,
-simplifying authorization logic and testing and enabling scalable content sharing features
+  simplifying authorization logic and testing and enabling scalable content sharing features
 - Resolved API Gateway throttling with batch processing and chunked messaging, improving
-real-time data stability
+  real-time data stability
 - Responded quickly to issues reported by users and customers and participated in regular bug tracking and release management duties
 
 ### [Itential](https://www.itential.com/)
@@ -33,11 +33,11 @@ real-time data stability
 _August 2021 - April 2023_
 
 - Directed end-to-end user experience for 2 key applications and led redesign efforts for Itential’s
-B2B SaaS platform, including navigation, notifications, search, and settings
+  B2B SaaS platform, including navigation, notifications, search, and settings
 - Overhauled design system in Figma, improving 45 components and enhancing WCAG 2.1
-compliance, resulting in improved consistency across products
+  compliance, resulting in improved consistency across products
 - Organized usability testing infrastructure across 4 app teams, leading to clearer user feedback
-and savings on 3rd-party testing platforms
+  and savings on 3rd-party testing platforms
 - Led user interviews to better understand gaps in product features and demo upcoming ideas
 - Collaborated regularly with cross-functional teams of frontend and backend developers, product managers and software architects to move new feature work forward
 
