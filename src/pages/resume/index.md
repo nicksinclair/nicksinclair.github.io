@@ -1,6 +1,6 @@
 ---
 path: '/resume'
-updated: '2024-12'
+updated: '2025-01'
 title: 'Resume'
 email: 'nick.sinclair98@gmail.com'
 phone: '404-376-2048'
@@ -17,38 +17,27 @@ website: 'nicksinclair.github.io'
 
 _May 2023 - Present_
 
-- Led impact-driven development efforts on frontend projects including establishing a design
-  system, exporting images, generating furniture suggestions, and displaying real-time metrics
-- Designed and built a real-time API for publishing and retrieving elements for use in example-based suggestions using AWS API Gateway (Web Sockets), Lambda, and DynamoDB
-- Designed and built a centralized permissions framework utilizing AWS Verified Permissions,
-  simplifying authorization logic and testing and enabling scalable content sharing features
-- Resolved API Gateway throttling with batch processing and chunked messaging, improving
-  real-time data stability
-- Responded quickly to issues reported by users and customers and participated in regular bug tracking and release management duties
+- Led impact-driven frontend development efforts, launching and refining key product features such as image exporting, selection metrics, and AI-driven furniture suggestions
+- Developed and launched new features with a data-driven approach, tracking usage metrics to inform iteration and refinement
+- Diagnosed and resolved frontend performance bottlenecks, reducing render times and improving responsiveness across the application
+- Built and maintained the company's visual testing infrastructure using Playwright, enabling automated snapshot testing and improving UI consistency across releases
+- Designed and implemented a real-time API for publishing and retrieving 3D elements to power example-based suggestions using AWS API Gateway (WebSockets), Lambda, and DynamoDB
+- Designed and built a centralized permissions framework utilizing AWS Verified Permissions, simplifying authorization logic and enabling scalable content sharing
+- Addressed growth and stability challenges, including mitigating API Gateway throttling with batch processing and chunked messaging for real-time data
+- Rapidly responded to user-reported issues, participating in ongoing bug tracking, debugging, and release management to maintain product quality
+- Coordinated design and content updates for the marketing website, integrating tracking and analytics to enhance user engagement and acquisition insights
 
 ### [Itential](https://www.itential.com/)
 
-#### **Product Designer**
+#### **UX Engineer**
 
-_August 2021 - April 2023_
+_July 2020 - April 2023_
 
-- Directed end-to-end user experience for 2 key applications and led redesign efforts for Itential’s
-  B2B SaaS platform, including navigation, notifications, search, and settings
-- Overhauled design system in Figma, improving 45 components and enhancing WCAG 2.1
-  compliance, resulting in improved consistency across products
-- Organized usability testing infrastructure across 4 app teams, leading to clearer user feedback
-  and savings on 3rd-party testing platforms
-- Led user interviews to better understand gaps in product features and demo upcoming ideas
-- Collaborated regularly with cross-functional teams of frontend and backend developers, product managers and software architects to move new feature work forward
-
-#### **Software Engineer**
-
-_July 2020 - August 2021_
-
-Atlanta, GA
-
-- Developed and tested a dashboard UI that leverages an internal API using React, Mocha, and Chai where customers can view general and detailed automation metrics
-- Delivered a library of 5 pre-built solutions for customers to promote product enablement using internal tools and Python templating engines
+- Led the end-to-end user experience for two key applications, driving major redesigns for navigation, notifications, search, and settings in Itential’s B2B SaaS platform
+- Overhauled the Figma design system, improving 45+ components and enhancing WCAG 2.1 compliance, ensuring a more accessible and consistent user experience
+- Designed and developed new UI features in React, including a dashboard for automation metrics with 80%+ test coverage
+- Spearheaded usability testing across four app teams, improving user feedback loops and reducing reliance on costly third-party testing platforms
+- Worked cross-functionally with frontend/backend engineers, product managers, and architects to drive feature development from concept to launch
 
 ### [Herman Miller](https://www.hermanmiller.com/)
 
@@ -71,7 +60,7 @@ Holland, MI
 
 ### [Georgia Institute of Technology](https://id.gatech.edu/)
 
-BS **Industrial Design**, minor in **Computer Science**
+BS in **Industrial Design**, minor in **Computer Science**
 
 _August 2016 - May 2020_
 
@@ -85,16 +74,15 @@ Highest Honors
 
 ## Skills
 
-Frontend Web Development, Responsive Web Design, Design System Development, User
-Experience Design, Prototyping, API Design (REST and WebSockets), System Design
-
-#### Design
-
-Figma, Photoshop, Illustrator, InDesign, SolidWorks, Fusion360, 3ds Max, SketchUp, Unity, Unreal Engine, KeyShot
+Frontend Development, Responsive Web Design, Design System Development, UX/UI Design, API Design (REST and WebSockets), System Design, 3D Visualization, Automated Testing
 
 #### Development
 
-JavaScript, TypeScript, HTML, CSS, Sass, Vue, React, Node, Java, Git, GitHub Actions, AWS (DynamoDB, S3, API Gateway, Lambda), MongoDB, Three.js, p5.js, WebGL, Playwright, Jest
+JavaScript, TypeScript, HTML, CSS, Vue.js, React.js, Node.js, Java, C#, Python, Git, GitHub Actions, AWS (DynamoDB, S3, API Gateway, Lambda), Docker, SASS, TailwindCSS, Three.js, p5.js, WebGL, Playwright, Jest
+
+#### Design
+
+Figma, Photoshop, Illustrator, InDesign, Unity, Unreal Engine, SolidWorks, Fusion 360, KeyShot, 3ds Max, SketchUp
 
 :::
 
