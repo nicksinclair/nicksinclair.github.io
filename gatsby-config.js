@@ -54,14 +54,6 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sass`,
     {
-      resolve: '@mkitio/gatsby-theme-password-protect',
-      options: {
-        password: 'itential', // delete or `undefined` to disable password protection
-        partialMatching: true,
-        pagePaths: ['/projects/itential'],
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
